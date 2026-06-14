@@ -124,16 +124,7 @@ contract/
 
 **`typechain-types/`** - Generated TypeScript type definitions for type-safe contract interactions in tests and scripts
 
-## Local Presale Deployment
-
-1. `npx hardhat node` &mdash; keep this running while you deploy contracts.
-2. In another terminal run:
-   - `npm run deploy:all` - deploys all contracts
-3. Copy the recorded `testToken` address from `client/src/abi/addresses.json` into your presale `saleToken` field when interacting with `PresaleDeploy`.
-
-## Available Commands
-
-### Running the tests
+## Running the tests
 
 ```shell
 npm install
